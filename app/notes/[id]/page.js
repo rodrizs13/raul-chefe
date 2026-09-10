@@ -25,7 +25,7 @@ export default function NoteDetails() {
   return (
     <main style={styles.container}>
       <Link href="/">
-        <button style={styles.button}>← Voltar</button>
+        <button style={styles.button}> Voltar</button>
       </Link>
 
       <h1>{note.title}</h1>
